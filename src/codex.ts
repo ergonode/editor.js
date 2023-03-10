@@ -13,6 +13,9 @@ import * as _ from './components/utils';
 
 declare const VERSION: string;
 
+const EditorStyles = require('./styles/main.css');
+
+export const styles = EditorStyles;
 /**
  * Editor.js
  *
